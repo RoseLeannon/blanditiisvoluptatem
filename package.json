@@ -1,0 +1,79 @@
+{
+  "name": "blanditiisvoluptatem",
+  "version": "1.0.0",
+  "description": "A Discord.js module to simplify your music commands and play songs with audio filters on Discord without any API key. Support YouTube, SoundCloud, Bandcamp, Facebook, and 700+ more sites",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RoseLeannon/blanditiisvoluptatem.git"
+  },
+  "keywords": [
+    "youtube",
+    "rerum",
+    "discord",
+    "explicabo",
+    "bot",
+    "dicta",
+    "queue",
+    "consequatur",
+    "discord-music-bot",
+    "illo",
+    "discord-js"
+  ],
+  "author": "TyreseWalker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RoseLeannon/blanditiisvoluptatem.git/issues"
+  },
+  "funding": {
+    "url": "https://patreon.com/DisTube"
+  },
+  "homepage": "https://github.com/RoseLeannon/blanditiisvoluptatem.git",
+  "dependencies": {
+    "@distube/ytdl-core": "^4.9.4",
+    "@distube/ytpl": "^1.1.1",
+    "@distube/ytsr": "^1.1.5",
+    "prism-media": "https://codeload.github.com/distubejs/prism-media/tar.gz/main",
+    "tiny-typed-emitter": "^2.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.0",
+    "@babel/plugin-proposal-class-properties": "^7.16.7",
+    "@babel/plugin-proposal-object-rest-spread": "^7.16.7",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-typescript": "^7.16.7",
+    "@commitlint/cli": "^16.1.0",
+    "@commitlint/config-conventional": "^16.0.0",
+    "@discordjs/voice": "^0.8.0",
+    "@distube/docgen": "github:distubejs/docgen",
+    "@types/jest": "^27.4.0",
+    "@types/node": "^17.0.15",
+    "@typescript-eslint/eslint-plugin": "^5.10.2",
+    "babel-jest": "^27.5.0",
+    "discord.js": "^14.0.0-dev.1644006540.cd5c7fa",
+    "eslint": "^8.8.0",
+    "eslint-config-distube": "^1.6.3",
+    "husky": "^7.0.4",
+    "jest": "^27.5.0",
+    "jsdoc-babel": "^0.5.0",
+    "lint-staged": "^12.3.3",
+    "npm-check-updates": "^12.2.1",
+    "pinst": "^2.1.6",
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.5"
+  },
+  "peerDependencies": {
+    "@discordjs/opus": "*",
+    "@discordjs/voice": "*",
+    "discord.js": "14||^14.0.0-dev"
+  },
+  "peerDependenciesMeta": {
+    "@discordjs/opus": {
+      "optional": true
+    }
+  },
+  "engines": {
+    "node": ">=16.6.0"
+  }
+}
